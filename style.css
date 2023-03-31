@@ -1,1 +1,29 @@
-body{ background-color: honeydew;}
+body{ background-color: grey;}
+
+.header{
+    
+    display: flex;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+#imglogo{
+    height: 120px;
+    width: 120px;
+}
+
+/* .division{
+    width: fit-content;
+    position: absolute;
+    margin-left: 60px;
+} */
+
+.footer{
+    display: flex;
+    padding: 500px 800px 500px 700px;
+
+}
+
+.homebutton {
+    width: 10vw;
+}
