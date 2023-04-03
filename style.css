@@ -27,3 +27,9 @@ body{ background-color: grey;}
 .homebutton {
     width: 10vw;
 }
+
+#mates{
+text-align: center;
+padding: 0px 300px 0px 300px;
+
+}
