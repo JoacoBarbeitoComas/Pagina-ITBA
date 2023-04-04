@@ -1,14 +1,12 @@
-body{ background-color: grey;
-    border-style: solid;
-    border-color: brown;
+body{
+    background-color: grey;
+
 }
 
 .header{
     display: flex;
     background-color: white;
     padding: 5px 5px 5px 5px;
-    border-style: solid;
-    border-color: brown;
     margin: 10px;
     justify-content: space-between;
     align-items: center;
@@ -37,8 +35,7 @@ body{ background-color: grey;
     text-align: center;
     gap: 20px;
     padding-right: 10px;
-    border-style: solid;
-    border-color: brown;
+    
 
 }
 
@@ -52,6 +49,5 @@ text-align: center;
 #footer{
 text-align: center;
 background-color: white;
-border-style: solid;
-border-color: brown;
+
 }
