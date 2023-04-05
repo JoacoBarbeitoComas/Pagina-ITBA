@@ -35,19 +35,28 @@ body{
     text-align: center;
     gap: 20px;
     padding-right: 10px;
-    
-
 }
 
 
 
 #mates{
 text-align: center;
-
 }
 
 #footer{
 text-align: center;
+border: solid;
+border-color: red;
 background-color: white;
 
+}
+
+#uno{
+    border: solid;
+    border-color: blue;
+}
+
+#dos{
+    border: solid;
+    border-color: blue;
 }
