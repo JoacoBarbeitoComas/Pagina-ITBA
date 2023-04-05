@@ -7,7 +7,6 @@ body{
     display: flex;
     background-color: white;
     padding: 5px 5px 5px 5px;
-    margin: 10px;
     justify-content: space-between;
     align-items: center;
     max-width: 1500px;
@@ -15,48 +14,29 @@ body{
     margin-right: auto;
 }
 
+
 #imglogo{
     height: 120px;
     width: 120px;
 }
-
-/* .division{
-    width: fit-content;
-    position: absolute;
-    margin-left: 60px;
-} */
 
 .homebutton {
     width: 10vw;
 }
 
 .sections{
-    display: flex;
-    text-align: center;
+    align-items: right;
     gap: 20px;
     padding-right: 10px;
 }
 
-
-
-#mates{
-text-align: center;
+#productos{
+    text-align: center;
 }
 
 #footer{
-text-align: center;
-border: solid;
-border-color: red;
-background-color: white;
-
-}
-
-#uno{
-    border: solid;
-    border-color: blue;
-}
-
-#dos{
-    border: solid;
-    border-color: blue;
+    text-align: center;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
 }
