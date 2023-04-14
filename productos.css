@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#imglogo{
+    height: 120px;
+    width: 120px;
+}
+
+.homebutton {
+    width: 10vw;
+}
+
+.ImSlogan {
+    text-align: center;
+}
+.sections{
+    align-items: right;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+.caja{
+    background-color: gainsboro;
+    display: flexbox;
+    text-align: center;
+}
