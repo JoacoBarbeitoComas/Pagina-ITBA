@@ -43,3 +43,58 @@ body{
     padding-top: 1px;
     padding-bottom: 10px;
 }
+
+
+.container {  
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Mates Bombillas Yerberas Materas"
+      "IMG-Mates IMG-Bombillas IMG-Yerberas IMG-Materas";
+  }
+  
+  .Mates { grid-area: Mates;
+    text-align: center;
+}
+  .Bombillas { grid-area: Bombillas;
+    text-align: center;
+ }
+  
+  .Materas { grid-area: Materas;
+    text-align: center;
+ }
+  
+ .Cuchillos { grid-area: Cuchillos;
+    text-align: center;
+ }
+
+  .IMG-Mates { 
+    grid-area: IMG-Mates;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+ }
+  
+  .IMG-Bombillas { 
+    grid-area: IMG-Bombillas;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+ }
+  
+  .IMG-Materas { 
+    grid-area: IMG-Materas;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+ }
+
+ .IMG-Cuchillos { 
+    grid-area: IMG-Cuchillos;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+ }
