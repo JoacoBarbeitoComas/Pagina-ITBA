@@ -1,7 +1,4 @@
-body{
-    background-color: grey;
-
-}
+/*      -- HEADER --      */
 
 .header{
     display: flex;
@@ -33,17 +30,55 @@ body{
     padding-right: 10px;
 }
 
+.search{
+    position:relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: transparent;
+    border: 1px solid #A6192E;
+    overflow: hidden;
+    background: url(icons/search-white.svg) no-repeat transparent;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search:hover {
+    cursor: pointer;
+    border: 1px solid #A6192E;
+    background: url(icons/search.svg) no-repeat transparent;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search:focus {
+    width: 200px;
+    cursor: pointer;
+    padding-left: 40px;
+    color: #A6192E;
+    outline: none;
+    border: 1px solid #8e3545;
+    background-color: transparent;
+    background: url(icons/search.svg) no-repeat;
+    background-size: 22px;
+    background-position: 10px 50%;
+}
+
+
+/*      -- BODY --      */
+
+body{
+    background-color: #8e3545;
+
+}
 #productos{
     text-align: center;
 }
-
-#footer{
-    text-align: center;
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 10px;
-}
-
 
 .container {  
     display: grid;
@@ -74,8 +109,8 @@ body{
   .IMG-Mates { 
     grid-area: IMG-Mates;
     text-align: center;
-    width: 10px;
-    height: 10px;
+    width: 1fr;
+    height: 1fr;
  }
   
   .IMG-Bombillas { 
@@ -98,3 +133,14 @@ body{
     width: 10px;
     height: 10px;
  }
+
+/*      -- FOOTER --      */
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+
