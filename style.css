@@ -82,7 +82,6 @@
     background-repeat: no-repeat;
     font-size: 15px; 
     color: transparent;
-    border: 1px solid white;
     overflow: hidden;
     background: url(/Cheat-Sheet/Imagenes/shopping_cart_2_line\ \(1\).png) no-repeat transparent;
     background-size: 30px;
@@ -91,19 +90,13 @@
 
 .carrito:hover{
     cursor: pointer;
-    border: 1px solid white;
     background: url(/Cheat-Sheet/Imagenes/shopping_cart_2_line\ \(1\).png) no-repeat transparent;
     background-size: 28px;
     background-position: 45% 50%;
 }
 
 .carrito:focus {
-    width: 200px;
-    cursor: pointer;
-    padding-left: 40px;
-    color: #A6192E;
-    outline: none;
-    border: 1px solid #8e3545;
+    cursor: pointer;    
     background-color: transparent;
     background: url(/Cheat-Sheet/carrito.html) no-repeat;
     background-size: 28px;
@@ -122,7 +115,7 @@ body{
 }
 
 .container {  
-    display: flexbox;
+    display: flex;
     justify-content: center;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 1fr 1fr;
@@ -167,3 +160,13 @@ body{
  }
 
 
+
+
+ /*      -- FOOTER --      */
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
