@@ -138,20 +138,17 @@ body{
     text-align: center;
     width: 200px;
  }
-  
   .IMG-Bombillas { 
     grid-area: IMG-Bombillas;
     text-align: center;
     width: 200px;
 
  }
-  
   .IMG-Materas { 
     grid-area: IMG-Materas;
     text-align: center;
     width: 200px;
  }
-
  .IMG-Cuchillos { 
     grid-area: IMG-Cuchillos;
     text-align: center;
@@ -165,8 +162,10 @@ body{
  /*      -- FOOTER --      */
 
 #footer{
+    display: flexbox;
     text-align: center;
     background-color: white;
     padding-top: 1px;
     padding-bottom: 10px;
+    bottom: 0   ;
 }

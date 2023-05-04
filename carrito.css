@@ -50,40 +50,12 @@ body{
     text-align: center;
 }
 
-.container {  
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Mates Bombillas Yerberas Materas"
-      "IMG-Mates IMG-Bombillas IMG-Yerberas IMG-Materas";
-  }
-  
-  .Mates { grid-area: Mates;
-    text-align: center;
+.carousel-indicators{
+    align-items: center     ;
 }
-  .Bombillas { grid-area: Bombillas;
-    text-align: center;
- }
-  
-  .Materas { grid-area: Materas;
-    text-align: center;
- }
-  
- .Cuchillos { grid-area: Cuchillos;
-    text-align: center;
- }
-
-  .IMG-Mates { 
-    grid-area: IMG-Mates;
-    text-align: center;
-    width: 1fr;
-    height: 1fr;
- }
-  
-
+.carousel-item{
+    width: 400px;
+}
 
 /*      -- FOOTER --      */
 
