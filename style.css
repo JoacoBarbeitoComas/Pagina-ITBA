@@ -116,6 +116,7 @@ body{
 
 .carousel {
     width: 25%;
+    justify-content: center;
     
 }
 
