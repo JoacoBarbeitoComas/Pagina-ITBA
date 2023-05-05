@@ -26,16 +26,16 @@
 }
 .sections{
     align-items: right;
-    gap: 0.2vw;
-    padding-right: 0.5vw;
+    gap: 5px;
+    padding-right: 10px;
     text-align: center;
     display: flex;
 }
 
 .search{
     position:relative;
-    width: 15px;
-    height: 15px;
+    width: 35px;
+    height: 35px;
     border-radius: 20px;
     padding: 10px;
     transition-duration: 500ms;
@@ -73,8 +73,8 @@
 
 .carrito{
     position:relative;
-    width: 15px;
-    height: 15px;
+    width: 35px;
+    height: 35px;
     border-radius: 20px;
     padding: 10px;
     transition-duration: 500ms;
@@ -103,6 +103,37 @@
     background-position: 10px 50%;
 }
 
+.menu{
+    position:relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-size: 15px; 
+    color: transparent;
+    overflow: hidden;
+    background: url(./Imagenes/menu_line.png) no-repeat transparent;
+    background-size: 30px;
+    background-position: 45% 50%;
+}
+
+.menu:hover {
+    cursor: pointer;
+    background: url(./Imagenes/menu_line.png) no-repeat transparent;
+    background-size: 28px;
+    background-position: 45% 50%;
+}
+
+.menu:focus {
+    cursor: pointer;
+    background-color: transparent;
+    background: url(./Imagenes/) no-repeat;
+    background-size: 28px;
+    background-position: 10px 50%;
+}
 
 /*      -- BODY --      */
 
@@ -118,6 +149,10 @@ body{
     width: 25%;
     justify-content: center;
     
+}
+
+.carousel-inner{
+    margin: auto;
 }
 
 
