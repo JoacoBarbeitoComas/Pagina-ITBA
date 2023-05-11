@@ -145,17 +145,11 @@ body{
     text-align: center;
 }
 
-.carousel {
-    width: 25%;
-    justify-content: center;
-    
+.carousel-1{
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
 }
-
-.carousel-inner{
-    margin: auto;
-}
-
-
 
  /*      -- FOOTER --      */
 

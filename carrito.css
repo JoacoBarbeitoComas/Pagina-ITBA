@@ -57,8 +57,11 @@ body{
 }
 
 .container{
+    border: solid;
+    border-color: red;
     display: flex;
-    gap: 20px;
+    margin: auto;
+    justify-content: space-between;
 }
 .img-1{
     width: 200px;
