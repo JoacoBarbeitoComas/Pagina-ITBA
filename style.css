@@ -1,6 +1,6 @@
 /*      -- HEADER --      */
 
-.header{
+/* .header{
     display: flex;
     background-color: white;
     padding: 5px 5px 5px 5px;
@@ -9,17 +9,23 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
+#nav-bar{
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 #imglogo{
     height: 120px;
     width: 120px;
 }
 
-.homebutton {
+/* .homebutton {
     width: 10vw;
-}
+} */
 
 .ImSlogan {
     text-align: center;
@@ -114,6 +120,7 @@
     background-repeat: no-repeat;
     font-size: 15px; 
     color: transparent;
+    border: 1px solid white;
     overflow: hidden;
     background: url(./Imagenes/menu_line.png) no-repeat transparent;
     background-size: 30px;
