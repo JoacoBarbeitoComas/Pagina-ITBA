@@ -1,31 +1,15 @@
 /*      -- HEADER --      */
 
-/* .header{
-    display: flex;
-    background-color: white;
-    padding: 5px 5px 5px 5px;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 #nav-bar{
     background-color: white;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center
 }
 
 #imglogo{
     height: 120px;
     width: 120px;
 }
-
-/* .homebutton {
-    width: 10vw;
-} */
 
 .ImSlogan {
     text-align: center;
