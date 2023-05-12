@@ -51,7 +51,7 @@
     color: transparent;
     border: 1px solid white;
     overflow: hidden;
-    background: url(/Cheat-Sheet/Imagenes/search_3_line\ \(1\).png) no-repeat transparent;
+    background: url(./Imagenes/search_3_line.png) no-repeat transparent;
     background-size: 30px;
     background-position: 45% 50%;
 }
@@ -59,7 +59,7 @@
 .search:hover {
     cursor: pointer;
     border: 1px solid white;
-    background: url(/Cheat-Sheet/Imagenes/search_3_line\ \(1\).png) no-repeat transparent;
+    background: url(./Imagenes/search_3_line.png) no-repeat transparent;
     background-size: 28px;
     background-position: 45% 50%;
 }
@@ -72,7 +72,7 @@
     outline: none;
     border: 1px solid #8e3545;
     background-color: transparent;
-    background: url(/Cheat-Sheet/Imagenes/search_3_line\ \(1\).png) no-repeat;
+    background: url(./Imagenes/search_3_line.png) no-repeat;
     background-size: 28px;
     background-position: 10px 50%;
 }
@@ -89,14 +89,14 @@
     font-size: 15px; 
     color: transparent;
     overflow: hidden;
-    background: url(/Cheat-Sheet/Imagenes/shopping_cart_2_line\ \(1\).png) no-repeat transparent;
+    background: url(./Imagenes/shopping_cart_2_line.png) no-repeat transparent;
     background-size: 30px;
     background-position: 45% 50%;
 }
 
 .carrito:hover{
     cursor: pointer;
-    background: url(/Cheat-Sheet/Imagenes/shopping_cart_2_line\ \(1\).png) no-repeat transparent;
+    background: url(./Imagenes/shopping_cart_2_line.png) no-repeat transparent;
     background-size: 28px;
     background-position: 45% 50%;
 }
@@ -104,7 +104,7 @@
 .carrito:focus {
     cursor: pointer;    
     background-color: transparent;
-    background: url(/Cheat-Sheet/carrito.html) no-repeat;
+    background: url(./Imagenes/shopping_cart_2_line.png) no-repeat;
     background-size: 28px;
     background-position: 10px 50%;
 }
@@ -137,9 +137,9 @@
 .menu:focus {
     cursor: pointer;
     background-color: transparent;
-    background: url(./Imagenes/) no-repeat;
+    background: url(./Imagenes/menu_line.png) no-repeat;
     background-size: 28px;
-    background-position: 10px 50%;
+    background-position: 10% 50%;
 }
 
 /*      -- BODY --      */

@@ -51,7 +51,7 @@
 .menu:focus {
     cursor: pointer;
     background-color: transparent;
-    background: url(./Imagenes/) no-repeat;
+    background: url(./Imagenes/menu_line.png) no-repeat;
     background-size: 28px;
     background-position: 10px 50%;
 }
@@ -76,7 +76,7 @@ body{
     display: flex;
     gap: 1%;
     margin: auto;
-    justify-content:space-between
+    justify-content: space-between
 }
 .col{
     text-align: center;
