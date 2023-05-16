@@ -175,3 +175,45 @@ body{
         width: auto;
     }
 }
+
+.nav-item{
+    position:relative;
+    height: 45px;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-size: 15px; 
+    color: transparent;
+    border: 1px solid white;
+    overflow: hidden;
+    background-size: 30px;
+    background-position: 45% 50%;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    border: 1px solid #A6192E;
+    background-size: 28px;
+    background-position: 45% 50%;
+}
+
+.search_menu:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    background-size: 28px;
+    background-position: 45% 50%;
+}
+
+.search_menu:focus {
+    height: 45px;
+    cursor: pointer;
+    color: #A6192E;
+    outline: none;
+    border: 1px solid #8e3545;
+    background-color: transparent;
+    background: url(./Imagenes/search_3_line.png) no-repeat;
+    background-size: 28px;
+    background-position: 45px 50%;
+}
