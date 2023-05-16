@@ -14,33 +14,39 @@
     <nav id="nav-bar" class="navbar bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
-          <img src="./Imagenes/Ñanderetá logo final 2.0.png" alt="" style="width:110px;" class="rounded-pill">
+          <img src="./Imagenes/Ñanderetá logo final 2.0.png" alt="" style="width:100px;" class="rounded-pill">
         </a>
+
         <div class="ImSlogan">
           <b><p>- Para los que nos gusta el campo -</p></b>
         </div>
+
         <div class="sections">
           <input class="search">
-          <a href="./carrito.html" class="carrito"></a>
-          <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
+          <button class="carrito" type="button" data-bs-toggle="modal" data-bs-target="#myModal">
+          </button>
+
+          <div class="modal" id="myModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
               <div class="modal-content">
+
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Carrito</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Has agregado los siguientes productos:</p>
                 </div>
+
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Guardar cambios
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-
-
 
           <button class="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           </button>
@@ -53,9 +59,6 @@
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item search-a">
-                    <a class="nav-link"><input class="search_menu" placeholder="Buscar" style="color:#000000A6"></a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="./nuestros_productos.html">Nuestros Productos</a>
@@ -127,7 +130,7 @@
 
     <footer> 
       <div id="footer">
-          <h3 id="dos">Ñandereta</h3>
+          <h3 id="dos">Ñanderetá</h3>
           <h4 id="uno">Seguinos</h4>
           <div>
               <a href="https://www.instagram.com/nandereta_/" target="_blank"><img src="./Imagenes/ins_line.png" alt="No se pudo cargar la imágen"></a>

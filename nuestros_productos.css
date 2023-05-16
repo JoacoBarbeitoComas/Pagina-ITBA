@@ -85,7 +85,7 @@
     background-position: 45% 50%;
 }
 
-.carrito:focus {
+.carrito:active {
     cursor: pointer;    
     background-color: transparent;
     background: url(./Imagenes/shopping_cart_2_line.png) no-repeat;
@@ -118,7 +118,7 @@
     background-position: 45% 50%;
 }
 
-.menu:focus {
+.menu:active {
     cursor: pointer;
     background-color: transparent;
     background: url(./Imagenes/menu_line.png) no-repeat;
