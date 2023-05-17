@@ -144,7 +144,6 @@ body{
 
 .row{
     display: flex;
-    gap: 1%;
     margin: auto;
     justify-content: space-between
 }
@@ -168,3 +167,32 @@ body{
 }
 
 
+@media (max-width: 1200px){
+    .carousel-1{
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px){
+    .ImSlogan{
+        display: none;
+    }
+    .carrito{
+        display: none;
+    }
+    .carousel-1{
+        width: auto;
+    }
+    .row{
+        display: grid;
+        justify-content: center;
+    }
+    .col{
+        text-align: center;
+        align-items: center;
+    }
+    div.col{
+        padding: auto;
+        text-align: center;
+    }
+}

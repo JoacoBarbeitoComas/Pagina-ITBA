@@ -14,6 +14,7 @@
 .ImSlogan {
     text-align: center;
 }
+
 .sections{
     align-items: right;
     gap: 5px;
@@ -127,12 +128,46 @@
     background-position: 10% 50%;
 }
 
+.nav-item{
+    padding-top: 0.9%;
+    position: relative;
+    margin: 3px;
+    border-radius: 20px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-size: 15px; 
+    color: transparent;
+    border: 1px solid white;
+    overflow: hidden;
+    background-size: 30px;
+    background-position: 45% 50%;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    border: 1px solid #A6192E;
+    background-size: 28px;
+    background-position: 45% 50%;
+}
+
+button.carrito_texto{
+    border-color: transparent;
+    background-color: transparent;
+    overflow: hidden;
+    padding-top: 0.9%;
+    margin: 3px;
+    font-size: 15px;
+    background-size: 30px;
+    background-position: 45% 50%;
+}
 /*      -- BODY --      */
 
 body{
     background-color: #8e3545;
 
 }
+
 #productos{
     text-align: center;
 }
@@ -142,7 +177,6 @@ body{
     margin: 0 auto;
     width: 20%;
 }
-
  /*      -- FOOTER --      */
 
 #footer{
@@ -172,28 +206,5 @@ body{
     .carousel-1{
         width: auto;
     }
-}
-
-.nav-item{
-    padding-top: 0.9%;
-    position:relative;
-    margin: 3px;
-    border-radius: 20px;
-    transition-duration: 500ms;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    font-size: 15px; 
-    color: transparent;
-    border: 1px solid white;
-    overflow: hidden;
-    background-size: 30px;
-    background-position: 45% 50%;
-}
-
-.nav-item:hover{
-    cursor: pointer;
-    border: 1px solid #A6192E;
-    background-size: 28px;
-    background-position: 45% 50%;
 }
 
