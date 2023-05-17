@@ -1,9 +1,14 @@
 /*      -- HEADER --      */
 
 #nav-bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0 ;
     background-color: white;
     justify-content: space-between;
     align-items: center;
+    z-index: 9999;
 }
 
 #imglogo{
@@ -127,7 +132,10 @@
 }
 
 /*      -- BODY --      */
-
+.main{
+    padding-top: 9rem;
+    
+}
 body{
     background-color: #8e3545;
 
@@ -163,6 +171,7 @@ body{
     display: inline-block;
 
 }
+
 /*      -- FOOTER --      */
 
 #footer{
