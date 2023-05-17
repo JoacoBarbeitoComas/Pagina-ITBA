@@ -6,11 +6,6 @@
     align-items: center
 }
 
-#imglogo{
-    height: 120px;
-    width: 120px;
-}
-
 .ImSlogan {
     text-align: center;
 }
@@ -177,6 +172,12 @@ body{
     margin: 0 auto;
     width: 20%;
 }
+.carousel_principal{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+}
+
  /*      -- FOOTER --      */
 
 #footer{
@@ -187,6 +188,7 @@ body{
     padding-bottom: 10px;
     bottom: 0   ;
 }
+
 
 
 

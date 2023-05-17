@@ -157,6 +157,12 @@ body{
     padding-bottom: 10px;
 }
 
+.texto{
+    background: #e0e0e0;
+    color: black;
+    display: inline-block;
+
+}
 /*      -- FOOTER --      */
 
 #footer{
