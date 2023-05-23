@@ -19,6 +19,7 @@
 .ImSlogan {
     text-align: center;
 }
+
 .sections{
     align-items: right;
     gap: 5px;
@@ -155,6 +156,7 @@ body{
     margin: auto;
     justify-content: space-between
 }
+
 .col{
     text-align: center;
 }
@@ -181,7 +183,6 @@ body{
     padding-top: 1px;
     padding-bottom: 10px;
 }
-
 
 @media (max-width: 1200px){
     .carousel-1{
