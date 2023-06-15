@@ -174,13 +174,33 @@ body{
 
 }
 
-.carousel-item{
-    display: inline-flex;
-    justify-content: center;
-
-    
+.accordion{
+    margin-bottom: 10px;
 }
 
+/* .button.accordion-button.collapsed::after{
+    color: white;
+} */
+
+.button.accordion-button{
+    color: red;
+}
+
+/* .button.accordion-button::after{
+    color: white;
+} */
+
+.accordion-button{
+    background-color: #5C001E;
+    color: white;
+}
+.button.accordion-button.collapsed{
+    color: #5C001E;
+}
+
+.accordion-item{
+    background-color: #70182d;
+}
 
 /*      -- FOOTER --      */
 
