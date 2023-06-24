@@ -154,6 +154,7 @@
 button.carrito_texto{
     border-color: transparent;
     background-color: transparent;
+    color: #000000A6;
     overflow: hidden;
     padding-top: 0.9%;
     margin: 3px;
