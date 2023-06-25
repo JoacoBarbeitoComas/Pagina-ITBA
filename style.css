@@ -165,7 +165,7 @@ button.carrito_texto{
 /*      -- BODY --      */
 
 body{
-    background-color: #8e3545;
+    background-color: #70182d;
 
 }
 
@@ -182,8 +182,30 @@ body{
     display: flex;
     margin: 0 auto;
     width: 50%;
+    margin-top: 135px;
+    margin-bottom: 7px;
 }
 
+.texto{
+    background-color: black;
+    display: inline-block;
+
+}
+
+.divmapa{
+    background-color: #70182d;
+    border: solid;
+    border-color: black;
+    margin: 10px;
+    border-width: 3px;
+}
+
+.mapa{
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
 
  /*      -- FOOTER --      */
 
@@ -195,8 +217,6 @@ body{
     padding-bottom: 10px;
     bottom: 0   ;
 }
-
-
 
 
 @media (max-width: 1200px){
