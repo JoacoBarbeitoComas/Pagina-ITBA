@@ -180,32 +180,38 @@ body{
 }
 .carousel_principal{
     display: flex;
-    margin: 0 auto;
-    width: 50%;
-    margin-top: 135px;
+    width: 100%;
+    height: 1;
+    margin-top: 129px;
     margin-bottom: 7px;
 }
 
-.texto{
-    background-color: black;
-    display: inline-block;
-
-}
-
 .divmapa{
+    display: flex;
+    gap: 0px 0px;
     background-color: #70182d;
     border: solid;
-    border-color: black;
-    margin: 10px;
-    border-width: 3px;
+    border-color: #8e3545;
+    border-width: 2.5px;
+    margin: 5px;
+
 }
 
 .mapa{
-    width: 450px;
-    height: 450px;
-    display: flex;
+    margin: 5px;
+}
+
+.invitation{
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.invtext{
+    align-items: center;
+    text-align: center;
+    color: #FDB813;
 }
 
  /*      -- FOOTER --      */
