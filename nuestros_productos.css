@@ -141,23 +141,57 @@ body{
     background-color: #70182d;
 }
 
+.nuestros-productos{
+    color: white;
+    margin: 8px;
+    margin-top: 0px;
+}
 .card-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
 }
-  
 
-
-  /* Media query for smaller screens */
-@media (max-width: 768px) {
-    .card-box {
-      width: 100%; /* Cards will take up 100% of the container width on smaller screens */
-      margin-bottom: 10px; /* Add some space between the cards */
-    }
+.btn{
+    background-color: #FDB813;
+    color: black;
 }
-  
 
+.btn:hover{
+    background-color: #8f5c00;
+    color: white;
+}
+
+#boton-vaciar{
+    background-color: #A6192E;
+    color: white;
+}
+
+#boton-vaciar:hover{
+    background-color: #dd5157;
+    color: white;
+    border: solid 1px;
+    border-color: black;
+}
+
+#boton-cerrar{
+    background-color: grey;
+    color: white;
+    
+}
+
+#boton-cerrar:hover{
+    background-color: #e0e0e0;
+    color: black;
+    border: solid 1px;
+    border-color: black;
+    
+}
 
 
 
