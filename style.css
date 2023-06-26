@@ -194,7 +194,6 @@ body{
     border-color: #8e3545;
     border-width: 2.5px;
     margin: 5px;
-
 }
 
 .mapa{
@@ -217,7 +216,6 @@ body{
  /*      -- FOOTER --      */
 
 #footer{
-    display: flexbox;
     text-align: center;
     background-color: white;
     padding-top: 1px;

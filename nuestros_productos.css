@@ -141,6 +141,25 @@ body{
     background-color: #70182d;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+  
+
+
+  /* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card-box {
+      width: 100%; /* Cards will take up 100% of the container width on smaller screens */
+      margin-bottom: 10px; /* Add some space between the cards */
+    }
+}
+  
+
+
+
 
 /*      -- FOOTER --      */
 
