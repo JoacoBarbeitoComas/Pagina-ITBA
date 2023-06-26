@@ -1,4 +1,26 @@
 var carrito = [];
+
+window.addEventListener('DOMContentLoaded', function(){
+    var saveCarrito = localStorage.getItem('carrito');
+    
+    if (saveCarrito){
+        carrito = JSON.parse(saveCarrito);
+        refreshCart();
+    }
+});
+
+function saveCarrito (){
+    localStorage.setItem('carrito',JSON.stringify(carrito));
+}
+
+function addProductToCart (evento){
+    saveCarrito ();
+}
+
+function vaciarCarrito (){
+    saveCarrito();
+}
+
 var addCartButtons = document.getElementsByClassName('agregar-carrito');
 for (var i = 0; i < addCartButtons.length; i++) {
     addCartButtons[i].addEventListener('click', addProductToCart);
@@ -39,9 +61,6 @@ function refreshCart() {
     calcularTotal();
 }
 
-
-
-
 function calcularTotal() {
     var total = 0;
     for (var i = 0; i < carrito.length; i++) {
@@ -56,13 +75,3 @@ function vaciarCarrito() {
     refreshCart();
 }
 
-window.addEventListener('DOMContentLoaded', function(){
-    var savedCarrito = localStorage.getItem('carrito');
-    
-    if (savedCarrito){
-        carrito = JSON.parse(savedCarrito);
-        refreshCart();
-    }
-});
-
-function savedCarrito ()
