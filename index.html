@@ -27,8 +27,7 @@
 
         <div class="sections">
           <input class="search">
-          <button class="carrito" type="button" data-bs-toggle="modal" data-bs-target="#myModal">
-          </button>
+          <button class="carrito" type="button" data-bs-toggle="modal" data-bs-target="#myModal"></button>          
 
           <div class="modal" id="myModal" tabindex="-1">
             <div class="modal-dialog modal-dialog-scrollable">
@@ -39,14 +38,17 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
-                <div class="modal-body">
+                <div class="modal-body">                  
                   <p>Has agregado los siguientes productos:</p>
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <p class="text-right">Total: $<span id="total"></span></p>
                 </div>
 
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Guardar cambios
-                  </button>
+                  <button id="boton-vaciar" class="btn btn-danger">Vaciar carrito</button>
+                  <button id="boton-cerrar" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
                 </div>
               </div>
             </div>
