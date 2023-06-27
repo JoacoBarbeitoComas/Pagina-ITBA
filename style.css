@@ -211,7 +211,46 @@ body{
     margin-bottom: 7px;
 }
 
-.divmapa{
+
+.div-promo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    background-color: #70182d;
+    border: solid;
+    border-color: #8e3545;
+    border-width: 2.5px;
+    margin: 5px;
+}
+  
+.div-mapa {
+    flex: 1 1 50%; 
+    margin: 8px;
+}
+  
+.invitation {
+    flex: 1 1 50%; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.mapa {
+    width: 50%;
+    height: 100%;
+}
+  
+.invtext {
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    color: #FDB813;
+}
+  
+
+
+
+/* .div-promo{
     display: flex;
     gap: 0px 0px;
     background-color: #70182d;
@@ -221,8 +260,14 @@ body{
     margin: 5px;
 }
 
+.div-mapa{
+    width: fit-content;
+}
+
 .mapa{
     margin: 5px;
+    width: 170%;
+    height: 140%;
 }
 
 .invitation{
@@ -236,7 +281,7 @@ body{
     align-items: center;
     text-align: center;
     color: #FDB813;
-}
+} */
 
  /*      -- FOOTER --      */
 
