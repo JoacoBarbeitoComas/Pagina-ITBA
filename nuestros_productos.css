@@ -159,6 +159,7 @@ body{
     color: white;
     margin: 8px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .card-container {
@@ -207,6 +208,7 @@ body{
     border-color: black;
     
 }
+
 
 
 
