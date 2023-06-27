@@ -185,7 +185,6 @@ button.carrito_texto{
     
 }
 
-
 /*      -- BODY --      */
 
 body{
@@ -327,6 +326,7 @@ h3.inv-text{
     background-position: 10% 50%;
 }
 
+/*      -- MEDIA --      */
 
 @media (max-width: 1200px){
     .carousel-1{

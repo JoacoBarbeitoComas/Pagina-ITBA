@@ -209,9 +209,6 @@ body{
     
 }
 
-
-
-
 /*      -- FOOTER --      */
 
 #footer{
@@ -224,6 +221,8 @@ body{
 #dos{
     margin-top: 10px;
 }
+
+/*      -- MEDIA --      */
 
 @media (max-width: 1200px){
     .carousel-1{

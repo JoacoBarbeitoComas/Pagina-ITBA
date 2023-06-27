@@ -1,7 +1,11 @@
+/*      -- HEADER --      */
+
 .tipografia{
     font-family: 'Montserrat', sans-serif;
     
 }
+
+/*      -- BODY --      */
 
 .carousel-1{
     display: flex;
@@ -83,6 +87,7 @@ h4 {
     color: black;
 }
 
+/*      -- MEDIA --      */
 
 @media (max-width: 1200px){
     .carousel-1{
