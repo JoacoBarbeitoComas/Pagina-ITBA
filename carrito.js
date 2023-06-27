@@ -1,26 +1,4 @@
 var carrito = [];
-
-window.addEventListener('DOMContentLoaded', function(){
-    var saveCarrito = localStorage.getItem('carrito');
-    
-    if (saveCarrito){
-        carrito = JSON.parse(saveCarrito);
-        refreshCart();
-    }
-});
-
-function saveCarrito (){
-    localStorage.setItem('carrito',JSON.stringify(carrito));
-}
-
-function addProductToCart (evento){
-    saveCarrito ();
-}
-
-function vaciarCarrito (){
-    saveCarrito();
-}
-
 var addCartButtons = document.getElementsByClassName('agregar-carrito');
 for (var i = 0; i < addCartButtons.length; i++) {
     addCartButtons[i].addEventListener('click', addProductToCart);
@@ -28,6 +6,8 @@ for (var i = 0; i < addCartButtons.length; i++) {
 
 var botonVaciar = document.getElementById('boton-vaciar');
 botonVaciar.addEventListener('click', vaciarCarrito);
+
+window.addEventListener('load', loadCartFromStorage);
 
 function addProductToCart(evento) {
     var button = evento.target;
@@ -42,6 +22,7 @@ function addProductToCart(evento) {
     carrito.push(productoAgregado);
     refreshCart();
 
+    saveCartToStorage();
 }
 
 function refreshCart() {
@@ -59,6 +40,26 @@ function refreshCart() {
         carritoContainer.appendChild(carritoElemento);
     }
     calcularTotal();
+
+    saveCartToStorage();
+}
+
+function vaciarCarrito() {
+    carrito = [];
+    refreshCart();
+    saveCartToStorage();
+}
+
+function saveCartToStorage() {
+    localStorage.setItem('cart',JSON.stringify(carrito));
+}
+
+function loadCartFromStorage() {
+    var savedCart = localStorage.getItem('cart');
+    if (savedCart) {
+        carrito = JSON.parse (savedCart);
+        refreshCart();
+    }
 }
 
 function calcularTotal() {
@@ -69,9 +70,3 @@ function calcularTotal() {
     var totalElemento = document.getElementById('total');
     totalElemento.innerText = total;
 }
-
-function vaciarCarrito() {
-    carrito = [];
-    refreshCart();
-}
-
