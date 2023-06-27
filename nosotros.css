@@ -79,3 +79,36 @@ h4 {
 #uno{
     color: black;
 }
+
+
+@media (max-width: 1200px){
+    .carousel-1{
+        width: 500px;
+    }
+}
+
+@media (max-width: 700px){
+    .ImSlogan{
+        font-size: 17px;
+    }
+    h3{
+        text-align: center;
+    }
+    .desc{
+        text-align: center;
+    }
+    .card-container{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px){
+    .ImSlogan{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+
+}
