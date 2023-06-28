@@ -173,6 +173,17 @@ body{
     margin-bottom: 10px;
 }
 
+#boton-pagar{
+    justify-content: flex-start;
+    background-color: #8f5c00;
+    color: black;
+}
+
+#boton-pagar:hover{
+    background-color: #FDB813;
+    color: white;
+}
+
 .btn{
     background-color: #FDB813;
     color: black;

@@ -70,3 +70,10 @@ function calcularTotal() {
     var totalElemento = document.getElementById('total');
     totalElemento.innerText = total;
 }
+
+function showAlert() {
+    var totalElemento = document.getElementById('total');
+    var compraTotal = totalElemento.innerText;
+    alert ("Su compra de $"+compraTotal+" fue realizada con éxito. ¡Muchas gracias!");
+    vaciarCarrito();
+}
